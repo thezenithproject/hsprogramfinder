@@ -27,6 +27,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+      <script defer src="https://analytics.us.umami.is/script.js" data-website-id="a10c3e5e-b0b2-4cab-a966-b4a89cae08d1"></script>
+      </head>
       <body className={dm_sans.variable + rethink_sans.variable}>
         {children}
       </body>
